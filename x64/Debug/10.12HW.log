@@ -1,0 +1,657 @@
+﻿  Flat.cpp
+C:\Users\rysya\Desktop\10.12HW\10.12HW\Flat.cpp(26,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Main.cpp
+C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2): error C2679: бинарный ">>": не найден оператор, принимающий правый операнд типа "Flat" (или приемлемое преобразование отсутствует)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(297,39):
+  может быть "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)": невозможно преобразовать аргумент 2 из "Flat" в "std::basic_streambuf<char,std::char_traits<char>> *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,9):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(293,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)": невозможно преобразовать аргумент 2 из "Flat" в "void *&"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(289,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)": невозможно преобразовать аргумент 2 из "Flat" в "long double &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(285,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)": невозможно преобразовать аргумент 2 из "Flat" в "double &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(281,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)": невозможно преобразовать аргумент 2 из "Flat" в "float &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(277,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned __int64 &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(273,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)": невозможно преобразовать аргумент 2 из "Flat" в "__int64 &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(269,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned long &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(265,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)": невозможно преобразовать аргумент 2 из "Flat" в "long &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(261,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned int &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(253,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)": невозможно преобразовать аргумент 2 из "Flat" в "int &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(249,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned short &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(217,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)": невозможно преобразовать аргумент 2 из "Flat" в "short &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(213,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)": невозможно преобразовать аргумент 2 из "Flat" в "bool &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(184,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))": невозможно преобразовать аргумент 2 из "Flat" в "std::ios_base &(__cdecl *)(std::ios_base &)"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,9):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(179,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))": невозможно преобразовать аргумент 2 из "Flat" в "std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,9):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(174,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))": невозможно преобразовать аргумент 2 из "Flat" в "std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &)"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,9):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(901,9):
+  или       "_Istr &&std::operator >>(_Istr &&,_Ty &&)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"_Istr &&std::operator >>(_Istr &&,_Ty &&)": не удается вывести аргумент шаблон для "__formal"
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(900,102):
+  		"<template-parameter>": невозможно создать указатель на ссылку
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(888,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,9):
+  	инициализация: невозможно преобразовать "Flat" в "unsigned char &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(882,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,9):
+  	инициализация: невозможно преобразовать "Flat" в "signed char &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(859,32):
+  или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	"std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)": в шаблон параметр "_Elem" неоднозначен
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  		может быть "Flat"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  		или       "char"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)': не удалось вывести аргумент шаблон для '_Elem &' из 'Flat'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(853,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,9):
+  	инициализация: невозможно преобразовать "Flat" в "unsigned char *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,9):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(848,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,9):
+  	инициализация: невозможно преобразовать "Flat" в "signed char *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,9):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(843,32):
+  или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)': не удалось вывести аргумент шаблон для '_Elem *' из 'Flat'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5179,32):
+  или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  	'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &' из 'Flat'
+  C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(9,2):
+  при попытке сопоставить список аргументов "(std::istream, Flat)"
+  
+C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "Flat" (или приемлемое преобразование отсутствует)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(480,39):
+  может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)": невозможно преобразовать аргумент 2 из "Flat" в "std::basic_streambuf<char,std::char_traits<char>> *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(448,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)": невозможно преобразовать аргумент 2 из "Flat" в "const void *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(430,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)": невозможно преобразовать аргумент 2 из "Flat" в "long double"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(412,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)": невозможно преобразовать аргумент 2 из "Flat" в "double"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(394,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)": невозможно преобразовать аргумент 2 из "Flat" в "float"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(376,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned __int64"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(358,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)": невозможно преобразовать аргумент 2 из "Flat" в "__int64"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(340,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned long"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(322,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)": невозможно преобразовать аргумент 2 из "Flat" в "long"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(303,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned int"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(277,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)": невозможно преобразовать аргумент 2 из "Flat" в "int"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(258,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned short"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(224,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)": невозможно преобразовать аргумент 2 из "Flat" в "short"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(206,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)": невозможно преобразовать аргумент 2 из "Flat" в "bool"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(200,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))": невозможно преобразовать аргумент 2 из "Flat" в "std::ios_base &(__cdecl *)(std::ios_base &)"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(194,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))": невозможно преобразовать аргумент 2 из "Flat" в "std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(189,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))": невозможно преобразовать аргумент 2 из "Flat" в "std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(1080,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  	инициализация: невозможно преобразовать "Flat" в "const std::error_code &"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Причина: невозможно преобразовать "Flat" в "const std::error_code"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(1003,9):
+  или       "_Ostr &&std::operator <<(_Ostr &&,const _Ty &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"_Ostr &&std::operator <<(_Ostr &&,const _Ty &)": не удается вывести аргумент шаблон для "__formal"
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(1002,103):
+  		"<template-parameter>": невозможно создать указатель на ссылку
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(945,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  	инициализация: невозможно преобразовать "Flat" в "unsigned char"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(939,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  	инициализация: невозможно преобразовать "Flat" в "const unsigned char *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(934,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  	инициализация: невозможно преобразовать "Flat" в "signed char"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(928,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  	инициализация: невозможно преобразовать "Flat" в "const signed char *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(892,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	"std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)": в шаблон параметр "_Elem" неоднозначен
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  		может быть "Flat"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  		или       "char"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': не удалось вывести аргумент шаблон для '_Elem' из 'Flat'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(849,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': не удалось вывести аргумент шаблон для 'const _Elem *' из 'Flat'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(811,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  	инициализация: невозможно преобразовать "Flat" в "char"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(766,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  	инициализация: невозможно преобразовать "Flat" в "const char *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(730,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  	инициализация: невозможно преобразовать "Flat" в "char"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(686,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  	инициализация: невозможно преобразовать "Flat" в "const char *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3598,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': не удалось вывести аргумент шаблон для 'const std::unique_ptr<_Ty2,_Dx2> &' из 'Flat'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1946,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': не удалось вывести аргумент шаблон для 'const std::shared_ptr<_Ty> &' из 'Flat'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5228,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'Flat'
+  C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(10,2):
+  при попытке сопоставить список аргументов "(std::ostream, Flat)"
+  
+C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2): error C2679: бинарный ">>": не найден оператор, принимающий правый операнд типа "Flat" (или приемлемое преобразование отсутствует)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(297,39):
+  может быть "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)": невозможно преобразовать аргумент 2 из "Flat" в "std::basic_streambuf<char,std::char_traits<char>> *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,9):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(293,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)": невозможно преобразовать аргумент 2 из "Flat" в "void *&"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(289,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)": невозможно преобразовать аргумент 2 из "Flat" в "long double &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(285,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)": невозможно преобразовать аргумент 2 из "Flat" в "double &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(281,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)": невозможно преобразовать аргумент 2 из "Flat" в "float &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(277,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned __int64 &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(273,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)": невозможно преобразовать аргумент 2 из "Flat" в "__int64 &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(269,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned long &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(265,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)": невозможно преобразовать аргумент 2 из "Flat" в "long &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(261,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned int &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(253,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)": невозможно преобразовать аргумент 2 из "Flat" в "int &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(249,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned short &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(217,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)": невозможно преобразовать аргумент 2 из "Flat" в "short &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(213,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)": невозможно преобразовать аргумент 2 из "Flat" в "bool &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(184,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))": невозможно преобразовать аргумент 2 из "Flat" в "std::ios_base &(__cdecl *)(std::ios_base &)"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,9):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(179,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))": невозможно преобразовать аргумент 2 из "Flat" в "std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,9):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(174,39):
+  или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))": невозможно преобразовать аргумент 2 из "Flat" в "std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &)"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,9):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(901,9):
+  или       "_Istr &&std::operator >>(_Istr &&,_Ty &&)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"_Istr &&std::operator >>(_Istr &&,_Ty &&)": не удается вывести аргумент шаблон для "__formal"
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(900,102):
+  		"<template-parameter>": невозможно создать указатель на ссылку
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(888,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,9):
+  	инициализация: невозможно преобразовать "Flat" в "unsigned char &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(882,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,9):
+  	инициализация: невозможно преобразовать "Flat" в "signed char &"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(859,32):
+  или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	"std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)": в шаблон параметр "_Elem" неоднозначен
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  		может быть "Flat"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  		или       "char"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)': не удалось вывести аргумент шаблон для '_Elem &' из 'Flat'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(853,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,9):
+  	инициализация: невозможно преобразовать "Flat" в "unsigned char *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,9):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(848,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,9):
+  	инициализация: невозможно преобразовать "Flat" в "signed char *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,9):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(843,32):
+  или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)': не удалось вывести аргумент шаблон для '_Elem *' из 'Flat'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5179,32):
+  или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  	'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &' из 'Flat'
+  C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(12,2):
+  при попытке сопоставить список аргументов "(std::istream, Flat)"
+  
+C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "Flat" (или приемлемое преобразование отсутствует)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(480,39):
+  может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)": невозможно преобразовать аргумент 2 из "Flat" в "std::basic_streambuf<char,std::char_traits<char>> *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(448,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)": невозможно преобразовать аргумент 2 из "Flat" в "const void *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(430,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)": невозможно преобразовать аргумент 2 из "Flat" в "long double"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(412,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)": невозможно преобразовать аргумент 2 из "Flat" в "double"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(394,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)": невозможно преобразовать аргумент 2 из "Flat" в "float"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(376,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned __int64"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(358,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)": невозможно преобразовать аргумент 2 из "Flat" в "__int64"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(340,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned long"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(322,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)": невозможно преобразовать аргумент 2 из "Flat" в "long"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(303,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned int"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(277,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)": невозможно преобразовать аргумент 2 из "Flat" в "int"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(258,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)": невозможно преобразовать аргумент 2 из "Flat" в "unsigned short"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(224,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)": невозможно преобразовать аргумент 2 из "Flat" в "short"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(206,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)": невозможно преобразовать аргумент 2 из "Flat" в "bool"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(200,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))": невозможно преобразовать аргумент 2 из "Flat" в "std::ios_base &(__cdecl *)(std::ios_base &)"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(194,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))": невозможно преобразовать аргумент 2 из "Flat" в "std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(189,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))": невозможно преобразовать аргумент 2 из "Flat" в "std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(1080,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  	инициализация: невозможно преобразовать "Flat" в "const std::error_code &"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Причина: невозможно преобразовать "Flat" в "const std::error_code"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(1003,9):
+  или       "_Ostr &&std::operator <<(_Ostr &&,const _Ty &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"_Ostr &&std::operator <<(_Ostr &&,const _Ty &)": не удается вывести аргумент шаблон для "__formal"
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(1002,103):
+  		"<template-parameter>": невозможно создать указатель на ссылку
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(945,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  	инициализация: невозможно преобразовать "Flat" в "unsigned char"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(939,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  	инициализация: невозможно преобразовать "Flat" в "const unsigned char *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(934,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  	инициализация: невозможно преобразовать "Flat" в "signed char"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(928,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  	инициализация: невозможно преобразовать "Flat" в "const signed char *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(892,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	"std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)": в шаблон параметр "_Elem" неоднозначен
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  		может быть "Flat"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  		или       "char"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': не удалось вывести аргумент шаблон для '_Elem' из 'Flat'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(849,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': не удалось вывести аргумент шаблон для 'const _Elem *' из 'Flat'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(811,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  	инициализация: невозможно преобразовать "Flat" в "char"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(766,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  	инициализация: невозможно преобразовать "Flat" в "const char *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(730,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  	инициализация: невозможно преобразовать "Flat" в "char"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(686,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  	инициализация: невозможно преобразовать "Flat" в "const char *"
+  		C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,10):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3598,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': не удалось вывести аргумент шаблон для 'const std::unique_ptr<_Ty2,_Dx2> &' из 'Flat'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1946,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': не удалось вывести аргумент шаблон для 'const std::shared_ptr<_Ty> &' из 'Flat'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5228,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+  	C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'Flat'
+  C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(13,2):
+  при попытке сопоставить список аргументов "(std::ostream, Flat)"
+  
+C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(14,4): error C2664: "bool Flat::operator ==(int)": невозможно преобразовать аргумент 1 из "Flat" в "int"
+  C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(14,16):
+  Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Users\rysya\Desktop\10.12HW\10.12HW\Flat.h(9,7):
+   см. объявление "Flat::operator =="
+  C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(14,4):
+  при попытке сопоставить список аргументов "(Flat)"
+  
+C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(16,4): error C2664: "bool Flat::operator >(int)": невозможно преобразовать аргумент 1 из "Flat" в "int"
+  C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(16,15):
+  Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Users\rysya\Desktop\10.12HW\10.12HW\Flat.h(11,7):
+   см. объявление "Flat::operator >"
+  C:\Users\rysya\Desktop\10.12HW\10.12HW\Main.cpp(16,4):
+  при попытке сопоставить список аргументов "(Flat)"
+  
+  Создание кода...
+C:\Users\rysya\Desktop\10.12HW\10.12HW\Flat.cpp(34,1): error C4716: Flat::operator=: должна возвращать значение
